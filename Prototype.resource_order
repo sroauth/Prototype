@@ -17,6 +17,17 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"sprWheatOutline","order":4,"path":"sprites/sprWheatOutline/sprWheatOutline.yy",},
     {"name":"MouseSpawner","order":1,"path":"objects/MouseSpawner/MouseSpawner.yy",},
+    {"name":"sprWell","order":1,"path":"sprites/sprWell/sprWell.yy",},
+    {"name":"Crate","order":4,"path":"objects/Crate/Crate.yy",},
+    {"name":"sprBucket","order":2,"path":"sprites/sprBucket/sprBucket.yy",},
+    {"name":"Interactable","order":6,"path":"objects/Interactable/Interactable.yy",},
+    {"name":"sprWheat","order":3,"path":"sprites/sprWheat/sprWheat.yy",},
+    {"name":"Wheat","order":5,"path":"objects/Wheat/Wheat.yy",},
+    {"name":"sprCrate","order":5,"path":"sprites/sprCrate/sprCrate.yy",},
+    {"name":"Bucket","order":3,"path":"objects/Bucket/Bucket.yy",},
+    {"name":"resolution","order":1,"path":"scripts/resolution/resolution.yy",},
+    {"name":"Well","order":2,"path":"objects/Well/Well.yy",},
   ],
 }

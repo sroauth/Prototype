@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_xscale = 0;
-image_yscale = 0;
+global.dt = delta_time / 1000000;
 
-timer = 0;
+global.dragging = noone;
+
+enum item {
+	bucket,
+	crate,
+	well,
+	wheat,
+}

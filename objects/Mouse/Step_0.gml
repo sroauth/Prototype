@@ -1,11 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = mouse_x;
-y = mouse_y;
+global.dt = delta_time / 1000000;
 
-if (timer <= 60) {
-	image_xscale = easeOutElastic(timer / 60) / 1;
-	image_yscale = easeOutElastic(timer / 60) / 1;
-	
-	timer++;
+if (global.dragging != noone) {
+	global.dragging.x = mouse_x + global.dragging.offset_x;
+	global.dragging.y = mouse_y + global.dragging.offset_y;
 }
