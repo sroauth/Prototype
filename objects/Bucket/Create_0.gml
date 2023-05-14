@@ -5,3 +5,5 @@
 event_inherited();
 
 uid = item.bucket;
+
+filled = 0;

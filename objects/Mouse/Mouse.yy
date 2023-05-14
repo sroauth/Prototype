@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Utilities",
+    "path": "folders/Objects/Utilities.yy",
   },
   "parentObjectId": null,
   "persistent": false,

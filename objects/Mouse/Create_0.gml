@@ -9,4 +9,8 @@ enum item {
 	crate,
 	well,
 	wheat,
+	soil,
+	seeds,
 }
+
+audio_play_sound(Sound3, 5, true);

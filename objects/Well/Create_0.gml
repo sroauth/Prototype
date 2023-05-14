@@ -5,3 +5,7 @@
 event_inherited();
 
 uid = item.well;
+
+filling = false;
+
+timer = 0;
