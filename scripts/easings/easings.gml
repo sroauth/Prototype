@@ -13,3 +13,10 @@ function easeOutElastic(xx){
 	
 	return power(2, -10 * xx) * sin((xx * 10 - 0.75) * c4) + 1;
 }
+
+function easeInBack(xx) {
+	var c1 = 1.70158;
+	var c3 = c1 + 1;
+
+	return c3 * xx * xx * xx - c1 * xx * xx;
+}

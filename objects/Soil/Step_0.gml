@@ -18,7 +18,7 @@ if (wet > 0) {
 			planted = false;
 			
 			for (var i = 0; i < 3; i++) {
-				instance_create_layer(x + 100 + random(40), y + 100 + random(40), "Instances", Wheat);
+				var wheat = instance_create_layer(x, y, "Instances", Wheat);
 			}
 		}
 	}
