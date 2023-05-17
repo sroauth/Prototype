@@ -20,3 +20,25 @@ function easeInBack(xx) {
 
 	return c3 * xx * xx * xx - c1 * xx * xx;
 }
+
+function easeOutQuint(xx) {
+	return 1 - power(1 - xx, 5);
+}
+
+function easeOutBounce(xx) {
+	var n1 = 7.5625;
+	var d1 = 2.75;
+
+	if (xx < 1 / d1) {
+	    return n1 * xx * xx;
+	} else if (xx < 2 / d1) {
+		xx -= 1.5 / d1;
+	    return n1 * xx * xx + 0.75;
+	} else if (xx < 2.5 / d1) {
+		xx -= 2.25 / d1;
+	    return n1 * xx * xx + 0.9375;
+	} else {
+		xx -= 2.625 / d1;
+	    return n1 * xx * xx + 0.984375;
+	}
+}

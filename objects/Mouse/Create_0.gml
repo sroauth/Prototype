@@ -13,4 +13,5 @@ enum item {
 	seeds,
 }
 
-audio_play_sound(Sound3, 5, true);
+offset_x = 0;
+offset_y = 0;

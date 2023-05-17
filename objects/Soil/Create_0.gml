@@ -4,6 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
+depth = 0;
+ground = true;
+
 uid = item.soil;
 
 planted = false;

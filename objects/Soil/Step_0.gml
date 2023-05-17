@@ -17,8 +17,12 @@ if (wet > 0) {
 			stage = 0;
 			planted = false;
 			
-			for (var i = 0; i < 3; i++) {
+			for (var i = 0; i < 4; i++) {
 				var wheat = instance_create_layer(x, y, "Instances", Wheat);
+				wheat.dropped = true;
+				var dir = irandom(1);
+				wheat.target_x = dir == 0 ? irandom_range(-200, -100) : irandom_range(100, 200);
+				wheat.target_y = irandom_range(20, 120);
 			}
 		}
 	}
